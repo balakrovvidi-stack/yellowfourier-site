@@ -1,0 +1,8 @@
+# Yellow Fourier Research Labs - allow all search engines to crawl and index.
+User-agent: *
+Allow: /
+
+# The enrollment/payment page is handled on A2 (enroll.yellowfourier.ai); keep the copy out of search.
+Disallow: /enroll.html
+
+Sitemap: https://yellowfourier.ai/sitemap.xml

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply — Yellow Fourier Research Labs</title>
+<meta name="description" content="Register for the free cohort orientation. Already attended and invited? Complete your enrollment. Contact us anytime with questions.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <svg class="dot" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" stroke="#f5c518" stroke-width="1.5" opacity=".5"/><path d="M4 20 Q10 4 15 20 T26 20 T37 20" stroke="#f5c518" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+      <span>Yellow&nbsp;Fourier <span style="color:var(--muted);font-size:.86rem">Research Labs</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="program.html">Program</a>
+      <a href="resources.html">Resources</a>
+      <a href="faq.html">FAQ</a>
+      <a href="apply.html" class="btn">Register now</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="glow a"></div>
+  <div class="wrap inner">
+    <div class="eyebrow">Apply</div>
+    <h1 class="serif">Reserve a seat at the orientation.</h1>
+    <p>Register for the free orientation below. Already attended and been invited to join the cohort? Secure your seat on the <a href="https://enroll.yellowfourier.ai/enroll.html" style="color:var(--amber-2)">enrollment page</a>. Prefer to talk first? Our contact details are at the bottom.</p>
+  </div>
+</div>
+
+<!-- REGISTER -->
+<section id="register">
+  <div class="wrap">
+    <div class="reg-head">
+      <div class="eyebrow">Register now</div>
+      <h2 class="serif">Cohort orientation registration.</h2>
+      <p class="section-lede">Complete the form to register your student for the next cohort's orientation session on <strong>Sunday, September 6, 2026 at 10:00 AM PT</strong>. We keep cohorts small — roughly five seats — so early registration matters.</p>
+      <div class="reg-deadline"><span class="pulse"></span> Registration closes Saturday, September 5, 2026 · 9:00 PM PT</div>
+    </div>
+
+    <form class="reg" id="regForm" novalidate>
+      <div class="fieldset-title">Parent / guardian</div>
+      <div class="grid2">
+        <div class="field"><label for="pFirst">First name <span class="req">*</span></label><input id="pFirst" name="pFirst" type="text" required autocomplete="given-name"></div>
+        <div class="field"><label for="pLast">Last name <span class="req">*</span></label><input id="pLast" name="pLast" type="text" required autocomplete="family-name"></div>
+        <div class="field"><label for="pEmail">Email <span class="req">*</span></label><input id="pEmail" name="pEmail" type="email" required autocomplete="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="pPhone">Phone <span class="req">*</span></label><input id="pPhone" name="pPhone" type="tel" required autocomplete="tel" placeholder="+1 555 123 4567"></div>
+      </div>
+
+      <div class="fieldset-title mt">Student</div>
+      <div class="fieldset-sub">The prospective researcher.</div>
+      <div class="grid2">
+        <div class="field"><label for="sFirst">First name <span class="req">*</span></label><input id="sFirst" name="sFirst" type="text" required></div>
+        <div class="field"><label for="sLast">Last name <span class="req">*</span></label><input id="sLast" name="sLast" type="text" required></div>
+        <div class="field"><label for="grade">Current grade <span class="req">*</span></label>
+          <select id="grade" name="grade" required>
+            <option value="" selected disabled>Select grade…</option>
+            <option>Grade 8</option>
+            <option>Grade 9</option>
+            <option>Grade 10</option>
+            <option>Grade 11</option>
+            <option>Grade 12</option>
+            <option>Undergraduate</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field"><label for="school">School name <span class="req">*</span></label><input id="school" name="school" type="text" required></div>
+        <div class="field"><label for="county">County <span class="req">*</span></label><input id="county" name="county" type="text" required placeholder="County / district"></div>
+        <div class="field"><label for="location">City, state / country</label><input id="location" name="location" type="text" placeholder="e.g. San Jose, CA, USA"></div>
+        <div class="field full"><label for="field">Field of interest</label>
+          <select id="field" name="field">
+            <option value="" selected disabled>Select a field…</option>
+            <option>Computational Neuroscience</option>
+            <option>Biomedical Engineering</option>
+            <option>Electrical &amp; Power Systems</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field full"><label for="exp">Prior research or technical experience</label><textarea id="exp" name="exp" placeholder="Coursework, projects, coding/math background, competitions, or anything relevant. It's fine to have none yet."></textarea></div>
+        <div class="field full"><label for="notes">Anything else you'd like us to know?</label><textarea id="notes" name="notes" placeholder="Questions, scheduling constraints, or how you heard about us."></textarea></div>
+      </div>
+
+      <div class="reg-actions">
+        <button type="submit" class="btn">Submit registration</button>
+        <p class="reg-fineprint">Submitting opens your email app with the details filled in, addressed to <a href="mailto:admissions@yellowfourier.ai">admissions@yellowfourier.ai</a>. Just press send to complete your registration.</p>
+      </div>
+      <div class="form-note" id="formNote"></div>
+    </form>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+<!-- ENROLL / PAYMENT -->
+<section id="enroll">
+  <div class="wrap">
+    <div class="cta-strip">
+      <div class="eyebrow">For invited families</div>
+      <h2 class="serif">Have you attended the orientation and been invited to enroll?</h2>
+      <p>If yes, secure your student's seat on the enrollment page.</p>
+      <div class="row"><a class="btn" href="https://enroll.yellowfourier.ai/enroll.html">Enroll &amp; secure your seat</a></div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-wrap">
+      <div class="eyebrow">Prefer to talk first?</div>
+      <h2 class="serif">Reach us directly.</h2>
+      <p class="section-lede" style="margin-left:auto;margin-right:auto">Have questions before you register? Call, text, or email — we're happy to walk you through the program and the orientation.</p>
+      <div class="contact-card">
+        <div class="role">Admissions &amp; intake</div>
+        <div class="who">Madhavi Adavikolanu</div>
+        <div class="num">+1 650 430 8359</div>
+        <a class="email" href="mailto:admissions@yellowfourier.ai">admissions@yellowfourier.ai</a>
+        <div class="note">Call or text for an intake conversation, or email us anytime</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-in">
+      <a class="brand" href="index.html" style="font-size:1rem">
+        <svg class="dot" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" stroke="#f5c518" stroke-width="1.5" opacity=".5"/><path d="M4 20 Q10 4 15 20 T26 20 T37 20" stroke="#f5c518" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+        <span>Yellow Fourier Research Labs</span>
+      </a>
+      <div class="foot-links">
+        <a href="index.html">Home</a>
+        <a href="program.html">Program</a>
+        <a href="resources.html">Resources</a>
+        <a href="faq.html">FAQ</a>
+        <a href="apply.html">Apply</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <div style="text-align:right">
+        <div><a href="mailto:admissions@yellowfourier.ai" style="color:var(--amber-2)">admissions@yellowfourier.ai</a> · +1 650 430 8359</div>
+        <div style="margin-top:4px">© 2026 Yellow Fourier Research Labs</div>
+      </div>
+    </div>
+    <p class="foot-legal">Yellow Fourier Research Labs is a mentored research program operated by Nanogen Solutions LLC (California, USA). Enrollment payments are processed securely by Authorize.Net (a Visa solution); card details are entered only on Authorize.Net's secure page and are never stored by Yellow Fourier. Yellow Fourier is an independent organization and is not affiliated with, endorsed by, or sponsored by any university, institute, or company; institutional references describe individual background only. Our guaranteed deliverable is the submission of a completed manuscript to a public preprint archive; acceptance or publication at any peer-reviewed venue is never guaranteed and is determined solely by independent review. See our <a href="terms.html" style="color:var(--amber-2)">Terms &amp; Enrollment Agreement</a>.</p>
+  </div>
+</footer>
+
+<script>
+/* Yellow Fourier Research Labs — shared site script (inlined). */
+(function(){
+  var form = document.getElementById('regForm');
+  var note = document.getElementById('formNote');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(!form.checkValidity()){ form.reportValidity(); return; }
+      var v = function(id){ var el = document.getElementById(id); return el && el.value ? el.value.trim() : ''; };
+      var lines = [
+        'YELLOW FOURIER RESEARCH LABS — COHORT REGISTRATION','',
+        '— Parent / guardian —',
+        'Name: ' + v('pFirst') + ' ' + v('pLast'),
+        'Email: ' + v('pEmail'),
+        'Phone: ' + v('pPhone'),'',
+        '— Student —',
+        'Name: ' + v('sFirst') + ' ' + v('sLast'),
+        'Grade: ' + v('grade'),
+        'School: ' + v('school'),
+        'County: ' + v('county'),
+        'City/State/Country: ' + (v('location') || '(not provided)'),
+        'Field of interest: ' + (v('field') || '(not provided)'),'',
+        '— Prior research / technical experience —',
+        (v('exp') || '(none provided)'),'',
+        '— Anything else —',
+        (v('notes') || '(none provided)'),'',
+        'Registering for the orientation on Sunday, September 6, 2026 at 10:00 AM PT.'
+      ];
+      var subject = 'Cohort registration — ' + v('sFirst') + ' ' + v('sLast');
+      var mailto = 'mailto:admissions@yellowfourier.ai?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+      window.location.href = mailto;
+      note.textContent = 'Your email app should now open with your registration pre-filled — just press send to admissions@yellowfourier.ai. If nothing opened, email us directly at admissions@yellowfourier.ai.';
+      note.style.display = 'block';
+      note.scrollIntoView({behavior:'smooth', block:'center'});
+    });
+  }
+
+  var ACCESS_CODE = 'yfrl-cohort';
+  var gate = document.getElementById('kbGate');
+  var content = document.getElementById('kbContent');
+  var passEl = document.getElementById('kbPass');
+  var errEl = document.getElementById('kbErr');
+  var btn = document.getElementById('kbBtn');
+  var lockBtn = document.getElementById('kbLock');
+  function tryUnlock(){
+    var val = (passEl.value || '').trim();
+    if(val.toLowerCase() === ACCESS_CODE.toLowerCase()){
+      gate.style.display = 'none'; content.classList.add('open'); errEl.style.display = 'none';
+    } else { errEl.style.display = 'block'; passEl.focus(); passEl.select(); }
+  }
+  if(btn){ btn.addEventListener('click', tryUnlock); }
+  if(passEl){ passEl.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ e.preventDefault(); tryUnlock(); } }); }
+  if(lockBtn){ lockBtn.addEventListener('click', function(){ content.classList.remove('open'); gate.style.display = 'block'; passEl.value = ''; window.scrollTo({top:0, behavior:'smooth'}); }); }
+
+  var faqs = document.querySelectorAll('.faq-item');
+  faqs.forEach(function(d){ d.addEventListener('toggle', function(){ if(d.open){ faqs.forEach(function(o){ if(o !== d) o.open = false; }); } }); });
+})();
+</script>
+</body>
+</html>
